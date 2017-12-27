@@ -39,8 +39,8 @@ function destructivelyRemoveElementFromBeginningOfArray(destroy) {
 
 var notDestroy = []
 function removeElementFromBeginningOfArray(notDestroy) {
-  notDestroy.slice(1)
-  return notDestroy
+  newDestroy = notDestroy.slice(1)
+  return newDestroy
 }
 
 var popTest = []
