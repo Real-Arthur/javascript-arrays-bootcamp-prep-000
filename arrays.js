@@ -21,7 +21,10 @@ function addElementToEndOfArray(addTest, x) {
 }
 
 var destroyTest = [];
-function 
+function destructivelyAddElementToEndOfArray(destroyTest, x) {
+  destroyTest.push(x)
+  return destroyTest
+}
 
 var whatever = []
 function accessElementInArray(whatever, x) {
