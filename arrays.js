@@ -45,8 +45,7 @@ function removeElementFromBeginningOfArray(notDestroy) {
 
 var popTest = []
 function destructivelyRemoveElementFromEndOfArray(popTest) {
-  test = popTest.pop(1)
-  return test
+  return popTest.pop()
 }
 
 var sliceTest = []
