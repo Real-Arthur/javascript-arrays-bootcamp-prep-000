@@ -51,6 +51,6 @@ function destructivelyRemoveElementFromEndOfArray(popTest) {
 
 var sliceTest = []
 function removeElementFromEndOfArray(sliceTest) {
-  newList = sliceTest.slice(2)
+  newList = sliceTest.slice(0)
   return newList
 }
