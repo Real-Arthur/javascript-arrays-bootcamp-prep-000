@@ -39,7 +39,7 @@ function destructivelyRemoveElementFromBeginningOfArray(destroy) {
 
 var notDestroy = []
 function removeElementFromBeginningOfArray(notDestroy) {
-  notDestroy.slice()
+  notDestroy.slice(0)
   return notDestroy
 }
 
